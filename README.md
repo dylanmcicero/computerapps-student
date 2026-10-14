@@ -16,7 +16,7 @@ This is the **student download page**, separate from the private classroom devel
 
 **Requirements:** Windows 10/11 x64, a web browser, and permission to run a downloaded application. Internet access is only needed to download the ZIP; the training app runs offline.
 
-**No account, Python, Docker, administrator installation, or access to the classroom network is required.** The app serves lessons to your own computer at `http://127.0.0.1:8874/`. It does not provide remote access to your computer or connect to the school's Getac server.
+**No account, Python, Docker, administrator installation, or access to the classroom network is required.** The app serves lessons to your own computer at `http://127.0.0.1:8874/`. It does not provide remote access to your computer.
 
 ## How progress works
 
