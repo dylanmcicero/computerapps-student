@@ -2,7 +2,7 @@
 
 **Offline IT learning and simulated practice labs for Windows.**
 
-This is the **student download page**, separate from the private classroom development repository. It contains no SPOT reports, instructor credentials, or connection to the classroom/HomeG network.
+This is the **student download page**, separate from the private classroom development repository. 
 
 > **Status: Windows release in preparation.** The first tested download has not been published yet. There is no EXE to download at this time.
 
