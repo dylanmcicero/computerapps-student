@@ -1,0 +1,40 @@
+name: Update student page when download is published
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Show students that Windows download is available
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          readme = Path("README.md")
+          text = readme.read_text(encoding="utf-8")
+          old = '> **Download status: Not published yet.** The Windows version is being tested. If you see **“There aren’t any releases here”**, you are on the correct page; there is simply no download available yet. The link and classroom QR code will stay the same when the first version is posted.'
+          new = '> **Windows download is available!** Click **Windows download page** above, open the newest release, and choose `ComputerApplications-Windows-x64.zip` under **Assets**. Your classroom QR code still works.'
+          if old in text:
+              readme.write_text(text.replace(old, new), encoding="utf-8")
+          else:
+              print("README already updated or its status wording changed.")
+          PY
+      - name: Commit updated student instructions if changed
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          if ! git diff --cached --quiet; then
+            git commit -m "docs: Windows student download is now available"
+            git push origin HEAD:main
+          fi
