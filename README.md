@@ -8,7 +8,7 @@
 
 [See the latest release details](https://github.com/dylanmcicero/computerapps-student/releases/latest)
 
-> **Available now — Windows 10/11 (64-bit).** Select the ZIP download above. Your posted classroom QR code and this repository address will not change for future versions.
+> **Available now — Windows 10/11 (64-bit).** Select the ZIP download above. 
 
 ### How to install
 
