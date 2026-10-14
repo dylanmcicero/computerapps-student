@@ -13,9 +13,10 @@
 ### How to install
 
 1. Click **DOWNLOAD COMPUTER APPLICATIONS FOR WINDOWS** above. It downloads `ComputerApplications-Windows-x64.zip`.
-2. Open **Downloads**, right-click the ZIP, and select **Extract All → Extract**. **Do not open the EXE inside the ZIP**.
-3. Open the extracted **ComputerApplications** folder and double-click `ComputerApplications.exe`.
-4. The app opens your web browser. **Leave the small Computer Applications launcher window open** while you study. Click **Stop and exit** when finished.
+2. Open **Downloads**, right-click the ZIP, and select **Extract All → Extract**. **Do not open an EXE inside a ZIP**.
+3. If the extracted folder contains another file named `ComputerApplications-Windows-x64.zip`, right-click **that ZIP** and select **Extract All** again. (Some early downloads contain an extra ZIP layer.)
+4. Open the extracted **ComputerApplications** folder and double-click `ComputerApplications.exe`.
+5. The app opens your web browser. **Leave the small Computer Applications launcher window open** while you study. Click **Stop and exit** when finished.
 
 If you opened [Releases](https://github.com/dylanmcicero/computerapps-student/releases/latest) instead, expand **Assets** and choose `ComputerApplications-Windows-x64.zip`. **Do not download “Source code (zip)”**.
 
@@ -42,7 +43,9 @@ Your browser saves lesson progress **on that computer, in that browser profile**
 
 **I only see “Source code (zip).”** That is not the Windows app. Look for `ComputerApplications-Windows-x64.zip` under a published release's **Assets**.
 
-**Windows says it can't run the app, or files are missing.** Make sure you chose **Extract All** first. Run `ComputerApplications.exe` *inside* the extracted folder without moving it elsewhere. Leave the `_internal` folder next to the EXE.
+**I extracted the download but only see another ZIP and a text file.** Right-click the inner `ComputerApplications-Windows-x64.zip` and choose **Extract All** once more. You should then see a `ComputerApplications` folder containing the EXE and `_internal`.
+
+**Windows says it can't run the app, or files are missing.** Make sure you chose **Extract All** first (twice if another ZIP is inside). Run `ComputerApplications.exe` *inside* the extracted folder without moving it elsewhere. Leave the `_internal` folder next to the EXE.
 
 **No browser window appears.** Keep the launcher open and enter `http://127.0.0.1:8874/` into your browser's address bar. If the launcher displays an error, close any other running copy and try again.
 
