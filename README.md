@@ -4,18 +4,20 @@
 
 ## Download Computer Applications
 
-**[➡ Open the Windows download page (GitHub Releases)](https://github.com/dylanmcicero/computerapps-student/releases)**
+**[⬇ DOWNLOAD COMPUTER APPLICATIONS FOR WINDOWS](https://github.com/dylanmcicero/computerapps-student/releases/latest/download/ComputerApplications-Windows-x64.zip)**
 
-> **Download status: Not published yet.** The Windows version is being tested. If you see **“There aren’t any releases here”**, you are on the correct page; there is simply no download available yet. The link and classroom QR code will stay the same when the first version is posted.
+[See the latest release details](https://github.com/dylanmcicero/computerapps-student/releases/latest)
 
-### How to install once the download appears
+> **Available now — Windows 10/11 (64-bit).** Select the ZIP download above. Your posted classroom QR code and this repository address will not change for future versions.
 
-1. Click **[Windows downloads](https://github.com/dylanmcicero/computerapps-student/releases)**.
-2. Open the newest release and find the **Assets** section. If the section is collapsed, click **Assets** to expand it.
-3. Download **`ComputerApplications-Windows-x64.zip`**. **Do not download “Source code (zip)”** — that is not the runnable app.
-4. Open your **Downloads** folder. Right-click the downloaded ZIP and choose **Extract All**, then **Extract**.
-5. Open the newly extracted **ComputerApplications** folder. Double-click **`ComputerApplications.exe`**.
-6. A small launcher window and your normal web browser will open. Use the browser to work through the lessons. **Leave the launcher open** while you're studying. Use **Stop and exit** when finished.
+### How to install
+
+1. Click **DOWNLOAD COMPUTER APPLICATIONS FOR WINDOWS** above. It downloads `ComputerApplications-Windows-x64.zip`.
+2. Open **Downloads**, right-click the ZIP, and select **Extract All → Extract**. **Do not open the EXE inside the ZIP**.
+3. Open the extracted **ComputerApplications** folder and double-click `ComputerApplications.exe`.
+4. The app opens your web browser. **Leave the small Computer Applications launcher window open** while you study. Click **Stop and exit** when finished.
+
+If you opened [Releases](https://github.com/dylanmcicero/computerapps-student/releases/latest) instead, expand **Assets** and choose `ComputerApplications-Windows-x64.zip`. **Do not download “Source code (zip)”**.
 
 ![Example showing which GitHub release asset to download](assets/which-file-to-download.svg)
 
@@ -36,7 +38,7 @@ Your browser saves lesson progress **on that computer, in that browser profile**
 
 ## Help if something goes wrong
 
-**I don't see any release or ZIP file.** The Windows download has not been published yet. Keep this page bookmarked; the link and QR code will not change.
+**I can't find the download.** Click the large **DOWNLOAD COMPUTER APPLICATIONS FOR WINDOWS** link at the top of this page. If the direct download does not begin, open [Latest release](https://github.com/dylanmcicero/computerapps-student/releases/latest) and select `ComputerApplications-Windows-x64.zip` under **Assets**.
 
 **I only see “Source code (zip).”** That is not the Windows app. Look for `ComputerApplications-Windows-x64.zip` under a published release's **Assets**.
 
